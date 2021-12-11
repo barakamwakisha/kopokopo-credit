@@ -3,6 +3,8 @@
   "version": "1.0.1",
   "description": "Program that determines KopoKopo's customers' credit scores based on their past transactions, for the Junior Software Engineer Role",
   "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "preferGlobal": true,
   "files": [
     "/dist"
   ],
@@ -15,13 +17,16 @@
     "test:watch": "jest --watch"
   },
   "devDependencies": {
+    "@types/chalk": "^2.2.0",
     "@types/jest": "^27.0.3",
+    "@types/yargs": "^17.0.7",
     "jest": "^27.4.4",
     "ts-jest": "^27.1.1",
     "typescript": "^4.5.3"
   },
   "dependencies": {
     "@fast-csv/parse": "^4.3.6",
-    "dayjs": "^1.10.7"
+    "dayjs": "^1.10.7",
+    "yargs": "^17.3.0"
   }
 }
