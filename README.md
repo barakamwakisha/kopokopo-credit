@@ -1,7 +1,7 @@
 # Instructions
 
 ## Prerequisites
-You need npm and or yarn installed on your machine
+You need NodeJS / npm and or yarn installed on your machine
 
 Clone this repository
 
