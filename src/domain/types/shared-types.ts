@@ -1,0 +1,1 @@
+export type AnyObjectArray = Array<{ [key: string]: unknown }>;
