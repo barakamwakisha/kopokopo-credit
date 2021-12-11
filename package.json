@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Program that determines KopoKopo's customers' credit scores based on their past transactions, for the Junior Software Engineer Role",
   "main": "index.js",
+  "files": [
+    "/dist"
+  ],
   "author": "Baraka Mwakisha <barakamwakisha@gmail.com>",
   "license": "MIT",
   "private": false,
