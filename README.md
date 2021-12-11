@@ -1,4 +1,6 @@
 # kopokopo-credit
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbarakamwakisha%2Fkopokopo-credit%2Fbadge%3Fref%3Dmaster&style=flat&label=Tests)](https://actions-badge.atrox.dev/barakamwakisha/kopokopo-credit/goto?ref=master)
+
 A program that determines KopoKopo's customers' credit scores based on their past transactions, for the Junior Software Engineer Role.
 Written in NodeJS with TypeScript.
 ## Prerequisites
