@@ -2,7 +2,7 @@
   "name": "kopokopo-credit",
   "version": "1.0.0",
   "description": "Program that determines KopoKopo's customers' credit scores based on their past transactions, for the Junior Software Engineer Role",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
     "/dist"
   ],
