@@ -1,0 +1,19 @@
+{
+  "name": "kopokopo-credit",
+  "version": "1.0.0",
+  "description": "Program that determines KopoKopo's customers' credit scores based on their past transactions, for the Junior Software Engineer Role",
+  "main": "index.js",
+  "author": "Baraka Mwakisha <barakamwakisha@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.4",
+    "ts-jest": "^27.1.1",
+    "typescript": "^4.5.3"
+  }
+}
