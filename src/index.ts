@@ -2,8 +2,10 @@ import { getTransactions, rankCustomersByCreditScore } from "./domain/credit-sco
 
 async function main() {
     try {
-        const csvPath = process.argv[0];
-        const limit = Number(process.argv[1]);
+        const csvPath = process.argv[2];
+        const limit = parseInt(process.argv[3]);
+
+        console.log(csvPath, limit);
 
         const transactions = await getTransactions(csvPath);
         const bestCustomers = await rankCustomersByCreditScore(transactions, limit);
@@ -17,3 +19,5 @@ async function main() {
         process.exit(1);
     }
 }
+
+main();
