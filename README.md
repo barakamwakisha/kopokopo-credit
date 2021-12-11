@@ -1,7 +1,10 @@
-# Instructions
-
+# kopokopo-credit
+A program that determines KopoKopo's customers' credit scores based on their past transactions, for the Junior Software Engineer Role.
+Written in NodeJS with TypeScript.
 ## Prerequisites
 You need NodeJS / npm and or yarn installed on your machine
+
+## Instructions
 
 Clone this repository
 
